@@ -1,0 +1,76 @@
+body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.main, .container {
+
+}
+.container {
+	padding-top: 20px;
+}
+footer {
+	height: 60px;
+	text-align: center;
+	padding: 10px 0;
+}
+.article {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 20px;
+}
+.article:last-of-type {
+	border-bottom: 0;
+}
+.admin-articles {
+	/*border: 1px solid #999;*/
+	margin-top: 20px;
+	width: 100%;
+	box-shadow: 0 0 10px #fcfcfc;
+}
+.admin-articles thead {
+	background: #f2f2f2;
+}
+.admin-articles tr:nth-of-type(odd) {
+	border-right: 1px solid #f9f9f9;
+	border-left: 1px solid #f9f9f9;
+}
+.admin-articles tr:nth-of-type(even) {
+	background: #f9f9f9;
+}
+.admin-articles tr:last-of-type {
+	border-bottom: 1px solid #f9f9f9;
+}
+.admin-articles th {
+	text-align: center;
+}
+.admin-articles th, .admin-articles td {
+	padding: 10px;
+	/*border: 1px solid #999;*/
+}
+.admin-articles td:nth-of-type(1) {
+	width: 15%;
+	text-align: center;
+}
+.admin-articles td:nth-of-type(2) {
+	padding: 10px 30px;
+} 
+.admin-articles td:nth-of-type(3), .admin-articles td:nth-of-type(4) {
+	width: 10%;
+	text-align: center;
+}
+label {
+	width: 50%;
+}
+.form-item {
+	display: block;
+	width: 100%;
+}
+input.btn {
+	display: block;
+}
